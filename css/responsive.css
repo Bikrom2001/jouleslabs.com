@@ -1,0 +1,62 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .works-btn {
+        font-size: 14px;
+    }
+    .video-btn{
+        font-size: 14px;
+     
+    }
+    .explore-tittle p{
+        padding: 0 0px;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .explore-tittle p{
+        padding: 0 0px;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .explore-tittle p{
+        padding: 0 0px;
+    }
+    .quote__quote-item p{
+        color: #3F454F;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.3px;
+        width: 70%;
+        
+    }
+    .btn-sub {
+        background-color: #02549D !important;
+        color: #ffffff !important;
+        padding: 15px 70px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        border: none;
+        border-radius: 5px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
